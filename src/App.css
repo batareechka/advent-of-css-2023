@@ -2,3 +2,9 @@
   padding: 2rem;
   min-height: 100vh;
 }
+
+.app__avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 32px 16px;
+}

@@ -1,0 +1,14 @@
+:root {
+  --black: #000000;
+  --orange-red: #fd4802;
+  --supernova: #fac900;
+  --spanish-green: #008a52;
+  --vista-blue: #94d1b4;
+  --white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

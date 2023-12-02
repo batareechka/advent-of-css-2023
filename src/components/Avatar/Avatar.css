@@ -1,0 +1,36 @@
+.avatar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: var(--spanish-green);
+  box-shadow: 0 0 0 6px var(--white);
+}
+
+.avatar--anonymous {
+  color: var(--white);
+  background-color: var(--spanish-green);
+  box-shadow: 0 0 0 6px var(--vista-blue);
+}
+
+.avatar__hat {
+  position: absolute;
+  top: -28px;
+  right: -20px;
+}
+
+.avatar__initial {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--white);
+}
+
+.avatar__indicator {
+  position: absolute;
+  right: -5px;
+  bottom: -2px;
+}

@@ -1,0 +1,23 @@
+.indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  color: var(--white);
+  border-radius: 50%;
+  border: 2px solid var(--white);
+}
+
+.indicator--danger {
+  background-color: var(--orange-red);
+}
+
+.indicator--success {
+  background-color: var(--spanish-green);
+}
+
+.indicator--warning {
+  color: var(--black);
+  background-color: var(--supernova);
+}
