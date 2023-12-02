@@ -1,12 +1,10 @@
-import { Icon, SVGSource } from '../components/SVGSprite/SVGSprite';
+import { Icon } from './Icon';
 
 export default {
   title: 'Example/Icon',
   component: Icon,
   parameters: {},
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
-  // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {},
 };
 

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Icon, SVGSource } from './components/SVGSprite/SVGSprite';
+import { Icon } from './components/Icon/Icon';
 
 function App() {
   return (
@@ -19,8 +19,6 @@ function App() {
       <Icon id="thumbsup" />
       <Icon id="upload" />
       <Icon id="user" />
-
-      <SVGSource />
     </div>
   );
 }
