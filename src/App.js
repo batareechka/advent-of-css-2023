@@ -28,16 +28,12 @@ function App() {
         <h2>Avatars</h2>
         <div className="app__avatar-grid">
           <Avatar alt="Anastasiia Batarei" />
-          <Avatar fileName="avatar-01.png" />
-          <Avatar fileName="avatar-02.png" status="danger" />
-          <Avatar fileName="avatar-03.png" status="warning" />
-          <Avatar fileName="avatar-04.png" status="success" />
-          <Avatar fileName="avatar-05.png" isChristmasTheme />
+          <Avatar avatar="avatar-01.png" />
+          <Avatar avatar="avatar-02.png" status="danger" />
+          <Avatar avatar="avatar-03.png" status="warning" />
+          <Avatar avatar="avatar-04.png" status="success" />
+          <Avatar avatar="avatar-05.png" isChristmasTheme />
           <Avatar isAnonymous />
-
-          {/* <Avatar fileName="avatar-07.png" />
-          <Avatar fileName="avatar-08.png" />
-          <Avatar fileName="avatar-09.png" /> */}
         </div>
       </section>
     </div>

@@ -3,29 +3,35 @@ import Icon from '../Icon/Icon';
 import Indicator from '../Indicator/Indicator';
 
 function Avatar({
-  fileName,
+  avatar,
   alt = '',
   size = 68,
   status,
   isAnonymous = false,
   isChristmasTheme = false,
 }) {
-  const src = `/images/${fileName}`;
+  const src = `/images/${avatar}`;
   const christmasImgSrc = '/images/santa-hat.png';
-  const firstInitial = alt[0];
+  const firstInitial = alt[0]?.toUpperCase();
   const classes = isAnonymous ? 'avatar avatar--anonymous' : 'avatar';
 
   return (
     <div className={classes}>
       {isChristmasTheme && (
-        <img className="avatar__hat" src={christmasImgSrc} alt="" />
+        <img className="avatar__hat" src={christmasImgSrc} alt="Santa hat" />
       )}
       {isAnonymous ? (
         <Icon id="eyeclosed" size="32" />
       ) : (
         <>
-          {fileName ? (
-            <img src={src} alt={alt} width={size} height={size} />
+          {avatar ? (
+            <img
+              className="avatar__image"
+              src={src}
+              alt={alt}
+              width={size}
+              height={size}
+            />
           ) : (
             <span className="avatar__initial">{firstInitial}</span>
           )}
