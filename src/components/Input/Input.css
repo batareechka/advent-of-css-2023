@@ -1,0 +1,54 @@
+.form-field {
+  --transition-data: 0.2s ease-in-out;
+
+  position: relative;
+  display: inline-block;
+}
+
+.form-field:has(.form-field__control:invalid) {
+  color: var(--white);
+}
+
+.form-field__label {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-weight: 700;
+  font-family: 'Kalam';
+  font-size: 32px;
+  line-height: 50px;
+  transition: all var(--transition-data);
+}
+
+.form-field:focus-within .form-field__label,
+.form-field__label--floating {
+  top: 4px;
+  left: 8px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.form-field__control {
+  padding: 32px 24px;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  font-size: 27px;
+  background-color: var(--white);
+  border: none;
+  transition: all var(--transition-data);
+}
+
+.form-field__control:invalid,
+.form-field--invalid .form-field__control {
+  background-color: var(--orange-red);
+  box-shadow: 0 0 0 3px var(--fire-engine-red);
+}
+
+.form-field__suffix {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  bottom: 0;
+  margin: auto;
+}

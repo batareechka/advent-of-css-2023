@@ -1,7 +1,7 @@
 import Icon from './Icon';
 
 export default {
-  title: 'Example/Icon',
+  title: 'Components/Icon',
   component: Icon,
   parameters: {},
   tags: ['autodocs'],

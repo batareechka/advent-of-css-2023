@@ -1,7 +1,7 @@
 import Avatar from './Avatar';
 
 export default {
-  title: 'Example/Avatar',
+  title: 'Components/Avatar',
   component: Avatar,
   parameters: { layout: 'centered' },
   tags: ['autodocs'],

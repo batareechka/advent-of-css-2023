@@ -1,7 +1,7 @@
 import Indicator from './Indicator';
 
 export default {
-  title: 'Example/Indicator',
+  title: 'Components/Indicator',
   component: Indicator,
   parameters: {},
   tags: ['autodocs'],
