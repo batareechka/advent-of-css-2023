@@ -13,6 +13,7 @@
   font-weight: 700;
   font-family: 'Kalam';
   text-transform: uppercase;
+  pointer-events: none;
   transition: all var(--transition-data);
 }
 
