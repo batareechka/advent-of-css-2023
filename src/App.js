@@ -2,6 +2,9 @@ import './global.css';
 import './App.css';
 import Icon from './components/Icon/Icon';
 import Avatar from './components/Avatar/Avatar';
+import FormField from './components/FormField/FormField';
+import Input from './components/Input/Input';
+import InputPassword from './components/InputPassword/InputPassword';
 
 function App() {
   return (
@@ -35,6 +38,20 @@ function App() {
           <Avatar avatar="avatar-05.png" isChristmasTheme />
           <Avatar isAnonymous />
         </div>
+      </section>
+      <section>
+        <h2>Form fields</h2>
+        <FormField label="Name">
+          <Input></Input>
+        </FormField>
+
+        <FormField label="Email">
+          <Input type="email"></Input>
+        </FormField>
+
+        <FormField label="Password">
+          <InputPassword></InputPassword>
+        </FormField>
       </section>
     </div>
   );

@@ -16,17 +16,8 @@ export const Text = {
 
 export const Email = {
   args: {
-    id: 'my-input',
+    id: 'my-email',
     type: 'email',
-    label: 'Email',
     required: true,
-  },
-};
-
-export const Password = {
-  args: {
-    id: 'my-input',
-    type: 'password',
-    label: 'Password',
   },
 };
