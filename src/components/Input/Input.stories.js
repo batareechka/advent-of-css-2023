@@ -19,6 +19,7 @@ export const Email = {
     id: 'my-input',
     type: 'email',
     label: 'Email',
+    required: true,
   },
 };
 
@@ -29,10 +30,3 @@ export const Password = {
     label: 'Password',
   },
 };
-
-// export const Invalid = {
-//   args: {
-//     id: 'my-input',
-//     isInvalid: true,
-//   },
-// };

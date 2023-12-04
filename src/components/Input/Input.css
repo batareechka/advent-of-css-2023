@@ -2,7 +2,6 @@
   --transition-data: 0.2s ease-in-out;
 
   position: relative;
-  display: inline-block;
 }
 
 .form-field:has(.form-field__control:invalid) {
@@ -11,17 +10,21 @@
 
 .form-field__label {
   position: absolute;
-  top: 24px;
-  left: 24px;
   font-weight: 700;
   font-family: 'Kalam';
-  font-size: 32px;
-  line-height: 50px;
+  text-transform: uppercase;
   transition: all var(--transition-data);
 }
 
-.form-field:focus-within .form-field__label,
-.form-field__label--floating {
+.form-field__label:has(+ .form-field__control:placeholder-shown) {
+  top: 24px;
+  left: 24px;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.form-field__label:has(+ .form-field__control),
+.form-field__label:has(+ .form-field__control:focus) {
   top: 4px;
   left: 8px;
   font-size: 18px;
@@ -30,6 +33,7 @@
 
 .form-field__control {
   padding: 32px 24px;
+  width: 100%;
   color: inherit;
   font: inherit;
   font-weight: 700;
@@ -39,8 +43,7 @@
   transition: all var(--transition-data);
 }
 
-.form-field__control:invalid,
-.form-field--invalid .form-field__control {
+.form-field__control:invalid {
   background-color: var(--orange-red);
   box-shadow: 0 0 0 3px var(--fire-engine-red);
 }
