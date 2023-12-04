@@ -1,5 +1,9 @@
 # Advent of CSS 2023
 
+24 Challenges for the Season
+
+This year, we're working on a single project over 24 days. By the end, you'll have an entire design system setup.
+
 https://www.adventofcss.com/
 
 ## Challenges
