@@ -28,13 +28,13 @@ export const Close = {
 
 export const EyeClosed = {
   args: {
-    id: 'eyeclosed',
+    id: 'eyeClosed',
   },
 };
 
 export const EyeOpened = {
   args: {
-    id: 'eyeopened',
+    id: 'eyeOpened',
   },
 };
 
@@ -64,13 +64,13 @@ export const Question = {
 
 export const ThumbsDown = {
   args: {
-    id: 'thumbsdown',
+    id: 'thumbsDown',
   },
 };
 
 export const ThumbsUp = {
   args: {
-    id: 'thumbssup',
+    id: 'thumbsUp',
   },
 };
 

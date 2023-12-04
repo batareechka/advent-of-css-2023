@@ -16,14 +16,14 @@ function App() {
         <Icon id="check" />
         <Icon id="chevron" />
         <Icon id="close" />
-        <Icon id="eyeclosed" />
-        <Icon id="eyeopened" />
+        <Icon id="eyeClosed" />
+        <Icon id="eyeOpened" />
         <Icon id="logout" />
         <Icon id="minus" />
         <Icon id="plus" />
         <Icon id="question" />
-        <Icon id="thumbsdown" />
-        <Icon id="thumbsup" />
+        <Icon id="thumbsDown" />
+        <Icon id="thumbsUp" />
         <Icon id="upload" />
         <Icon id="user" />
       </section>

@@ -21,7 +21,7 @@ function Avatar({
         <img className="avatar__hat" src={christmasImgSrc} alt="Santa hat" />
       )}
       {isAnonymous ? (
-        <Icon id="eyeclosed" size="32" />
+        <Icon id="eyeClosed" size="32" />
       ) : (
         <>
           {avatar ? (

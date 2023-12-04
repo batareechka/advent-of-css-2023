@@ -13,7 +13,7 @@ const InputPassword = ({
   const passwordButtonLabel = isPasswordShown
     ? 'Hide password'
     : 'Show password';
-  const passwordIcon = isPasswordShown ? 'eyeclosed' : 'eyeopened';
+  const passwordIcon = isPasswordShown ? 'eyeClosed' : 'eyeOpened';
 
   const toggleShowPassword = (event) => {
     if (!value) return;
