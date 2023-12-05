@@ -1,0 +1,38 @@
+.button {
+  color: var(--black);
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+  border: none;
+  background-color: var(--supernova);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: color-mix(in srgb, var(--supernova), var(--black) 7%);
+}
+
+.button:active {
+  background-color: color-mix(in srgb, var(--supernova), var(--black) 9%);
+}
+
+.button--large {
+  min-width: 200px;
+  padding: 20px;
+  font-family: 'Kalam';
+  font-size: 32px;
+  line-height: 50px;
+  border-radius: 45px;
+}
+
+.button--small {
+  min-width: 112px;
+  padding: 2px 8px;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 17px;
+}
+
+.button--full-width {
+  width: 100%;
+}
