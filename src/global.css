@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Inter:wght@400;500;700&family=Kalam:wght@700&display=swap');
 
 :root {
+  --silver-tree: #70bd91;
   --black: #000000;
   --bombay: #aeaeae;
   --fire-engine-red: #c52425;
@@ -17,12 +18,25 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
 body {
+  margin: 0;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 :focus-visible {
-  outline: 2px solid var(--spanish-green);
+  outline: 6px solid var(--spanish-green);
 }
