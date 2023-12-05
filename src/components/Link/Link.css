@@ -1,0 +1,11 @@
+.link {
+  display: inline-block;
+  color: var(--black);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 54px;
+}
+
+.link:hover {
+  text-decoration: none;
+}
