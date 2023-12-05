@@ -21,3 +21,6 @@ https://www.adventofcss.com/
 
 ### Day 4
 ![password](https://github.com/batareechka/advent-of-css-2023/assets/20286643/ef1ba1de-32bd-404e-aed4-d9c2af3be4e5)
+
+### Day 5
+![login_screen](https://github.com/batareechka/advent-of-css-2023/assets/20286643/bccf6f3b-c01b-4f40-b679-c3d3b13bd4b6)
