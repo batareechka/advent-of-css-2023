@@ -1,0 +1,28 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+  padding-top: 80px;
+  padding-bottom: 55px;
+  color: var(--scotch-mist);
+  background-color: var(--acadia);
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background-color: var(--black-pearl);
+  }
+}
+
+.footer__content {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 512px;
+  padding-right: 24px;
+  padding-left: 24px;
+  text-align: center;
+}
+
+.footer__logo {
+  margin-bottom: 55px;
+}

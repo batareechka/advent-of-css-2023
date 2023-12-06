@@ -4,6 +4,7 @@
   background-image: url('/public/images/bg__auth.svg');
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: 100%;
 }
 
 @media (prefers-color-scheme: dark) {

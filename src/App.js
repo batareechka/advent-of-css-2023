@@ -2,6 +2,7 @@ import './global.css';
 import './App.css';
 import WelcomeLayout from './components/WelcomeLayout/WelcomeLayout';
 import FormField from './components/FormField/FormField';
+import Footer from './components/Footer/Footer';
 import Input from './components/Input/Input';
 import InputPassword from './components/InputPassword/InputPassword';
 import Button from './components/Button/Button';
@@ -29,6 +30,7 @@ function App() {
         </form>
         <Link>Need an Account?</Link>
       </WelcomeLayout>
+      <Footer />
     </div>
   );
 }

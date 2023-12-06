@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Inter:wght@400;500;700&family=Kalam:wght@700&display=swap');
 
 :root {
-  --silver-tree: #70bd91;
+  --acadia: #392f2d;
   --black: #000000;
+  --black-pearl: #071126;
   --bombay: #aeaeae;
   --fire-engine-red: #c52425;
   --nile-blue: #243853;
   --orange-red: #fd4802;
+  --scotch-mist: #efe9cb;
+  --silver-tree: #70bd91;
   --supernova: #fac900;
   --spanish-green: #008a52;
   --vista-blue: #94d1b4;
@@ -32,10 +35,20 @@ body {
   line-height: 20px;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--black-pearl);
+  }
+}
+
 img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+a {
+  color: inherit;
 }
 
 :focus-visible {
