@@ -24,3 +24,11 @@ https://www.adventofcss.com/
 
 ### Day 5
 ![login_screen](https://github.com/batareechka/advent-of-css-2023/assets/20286643/bccf6f3b-c01b-4f40-b679-c3d3b13bd4b6)
+
+### Day 6
+
+#### Light Theme
+![footer_light](https://github.com/batareechka/advent-of-css-2023/assets/20286643/458ff4bd-48fa-40eb-b89c-3147379a38ce)
+
+#### Dark Theme
+![footer_dark](https://github.com/batareechka/advent-of-css-2023/assets/20286643/aea6578c-ef66-4811-b4ce-be5fbb193257)
