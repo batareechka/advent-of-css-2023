@@ -8,6 +8,4 @@ export default {
   argTypes: {},
 };
 
-export const SecretSantaLogo = {
-  args: {},
-};
+export const SecretSantaLogo = {};

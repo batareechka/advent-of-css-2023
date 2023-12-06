@@ -6,6 +6,12 @@
   line-height: 54px;
 }
 
+@media (prefers-color-scheme: dark) {
+  .link {
+    color: var(--white);
+  }
+}
+
 .link:hover {
   text-decoration: none;
 }
