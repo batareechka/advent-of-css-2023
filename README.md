@@ -32,3 +32,6 @@ https://www.adventofcss.com/
 
 #### Dark Theme
 ![footer_dark](https://github.com/batareechka/advent-of-css-2023/assets/20286643/aea6578c-ef66-4811-b4ce-be5fbb193257)
+
+### Day 7
+![HamburgerMenu](https://github.com/batareechka/advent-of-css-2023/assets/20286643/76a67850-1f6b-41f5-a282-3b5fae1d602e)
