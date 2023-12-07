@@ -9,11 +9,11 @@
 }
 
 .button:hover {
-  background-color: color-mix(in srgb, var(--supernova), var(--black) 7%);
+  background-color: var(--color-action-hover);
 }
 
 .button:active {
-  background-color: color-mix(in srgb, var(--supernova), var(--black) 9%);
+  background-color: var(--color-action-active);
 }
 
 .button--large {

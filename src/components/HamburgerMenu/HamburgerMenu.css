@@ -1,0 +1,125 @@
+.hamburger-menu {
+  max-width: 467px;
+  height: 100%;
+}
+
+.hamburger-menu__button {
+  --animation-iteration: 0.3s;
+
+  position: fixed;
+  top: 46px;
+  left: 46px;
+  z-index: 1;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  background-color: var(--supernova);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hamburger-menu__button:hover {
+  /* background-color: var(--color-action-hover); */
+}
+
+.hamburger-menu__button:active {
+  /* background-color: var(--color-action-active); */
+}
+
+/* Button icon */
+.hamburger-menu__button::before,
+.hamburger-menu__button::after,
+.hamburger-menu__button-line {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: var(--black);
+  content: '';
+}
+
+.hamburger-menu__button-line {
+  transition: 0s opacity var(--animation-iteration);
+}
+
+.hamburger-menu__button::before,
+.hamburger-menu__button::after {
+  transition: rotate var(--animation-iteration),
+    var(--animation-iteration) translate var(--animation-iteration);
+}
+
+.hamburger-menu__button--close::before {
+  translate: 0 14px;
+  rotate: 45deg;
+  transition: translate var(--animation-iteration),
+    var(--animation-iteration) rotate var(--animation-iteration);
+}
+.hamburger-menu__button--close::after {
+  translate: 0 -14px;
+  rotate: -45deg;
+  transition: translate var(--animation-iteration),
+    var(--animation-iteration) rotate var(--animation-iteration);
+}
+
+.hamburger-menu__button--close > .hamburger-menu__button-line {
+  opacity: 0;
+}
+
+/* END Button animation */
+
+.hamburger-menu__panel {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 46px 46px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--supernova); /*temp*/
+  translate: -110% 0;
+  transition: translate 0.3s 0.3s;
+}
+
+.hamburger-menu--opened .hamburger-menu__panel {
+  translate: 0;
+}
+
+.hamburger-menu__navigation {
+  margin-left: -46px;
+}
+
+.hamburger-menu__link {
+  display: block;
+  padding: 24px 46px 16px;
+  font-family: 'Bebas Neue';
+  font-size: 78px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.hamburger-menu__link:hover {
+  background-color: var(--color-action-hover);
+}
+
+.hamburger-menu__events {
+  margin-top: auto;
+}
+
+.hamburger-menu__events-header {
+  margin: 0;
+  color: var(--spanish-green);
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 74px;
+}
+
+.hamburger-menu__events-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+}

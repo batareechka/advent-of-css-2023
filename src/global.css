@@ -14,6 +14,9 @@
   --spanish-green: #008a52;
   --vista-blue: #94d1b4;
   --white: #ffffff;
+
+  --color-action-hover: color-mix(in srgb, var(--supernova), var(--black) 7%);
+  --color-action-active: color-mix(in srgb, var(--supernova), var(--black) 9%);
 }
 
 *,
