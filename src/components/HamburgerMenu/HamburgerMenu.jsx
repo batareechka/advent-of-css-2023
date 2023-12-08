@@ -23,7 +23,10 @@ const HamburgerMenu = () => {
       >
         <span className="hamburger-menu__button-line"></span>
       </button>
-      <div className="hamburger-menu__panel">
+      {/* FIXME inert={!isOpened} 
+          https://github.com/facebook/react/pull/24730
+      */}
+      <div className="hamburger-menu__panel" inert={!isOpened && ''}>
         <nav className="hamburger-menu__navigation">
           <a className="hamburger-menu__link" href="#">
             Dashboard
