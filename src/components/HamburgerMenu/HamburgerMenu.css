@@ -25,11 +25,11 @@
 }
 
 .hamburger-menu__button:hover {
-  /* background-color: var(--color-action-hover); */
+  background-color: var(--color-action-hover);
 }
 
 .hamburger-menu__button:active {
-  /* background-color: var(--color-action-active); */
+  background-color: var(--color-action-active);
 }
 
 /* Button icon */
