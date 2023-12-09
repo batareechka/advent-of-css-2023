@@ -27,11 +27,13 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div className={classes}>
+    <nav className={classes}>
       <button
         className={buttonClasses}
         type="button"
         aria-label={buttonLabel}
+        aria-expanded={isOpened}
+        aria-controls="navigation-list"  /* for JAWS */ 
         onClick={handleClick}
       >
         <span className="hamburger-menu__button-line"></span>
@@ -41,7 +43,7 @@ const HamburgerMenu = () => {
           https://github.com/facebook/react/pull/24730
       */}
       <div className="hamburger-menu__panel" inert={!isOpened && 'inert'}>
-        <nav className="hamburger-menu__navigation">
+        <div className="hamburger-menu__list" id="navigation-list">
           <a className="hamburger-menu__link" href="#">
             Dashboard
           </a>
@@ -51,14 +53,14 @@ const HamburgerMenu = () => {
           <a className="hamburger-menu__link" href="#">
             My wishlist
           </a>
-        </nav>
+        </div>
         <section className="hamburger-menu__events">
           <h2 className="hamburger-menu__events-header">Past events</h2>
           <h3 className="hamburger-menu__events-title ">Balthis Christmas</h3>
           <p>December 23, 2023</p>
         </section>
       </div>
-    </div>
+    </nav>
   );
 };
 
