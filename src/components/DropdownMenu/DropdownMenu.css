@@ -1,0 +1,79 @@
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu__button {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 0;
+  color: var(--black);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dropdown-menu__button-label {
+  display: block;
+  text-align-last: left;
+}
+
+.dropdown-menu__button-name {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.dropdown-menu__list {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 20px 0;
+  max-width: 196px;
+  background-color: var(--white);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.dropdown-menu__list::before {
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  z-index: -1;
+  width: 24px;
+  height: 24px;
+  background-color: var(--white);
+  content: '';
+  rotate: 45deg;
+  pointer-events: none;
+}
+
+.dropdown-menu__item:has(+ .dropdown-menu__item) {
+  margin-bottom: 6px;
+}
+
+.dropdown-menu__link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  color: var(--black);
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.dropdown-menu__link:hover {
+  background-color: var(--color-action-hover-neutral);
+}
+
+.dropdown-menu__link-icon {
+  color: var(--pastel-magenta);
+}

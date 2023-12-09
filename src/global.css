@@ -8,6 +8,7 @@
   --fire-engine-red: #c52425;
   --nile-blue: #243853;
   --orange-red: #fd4802;
+  --pastel-magenta: #ff9dbf;
   --scotch-mist: #efe9cb;
   --silver-tree: #70bd91;
   --supernova: #fac900;
@@ -17,6 +18,7 @@
 
   --color-action-hover: color-mix(in srgb, var(--supernova), var(--black) 7%);
   --color-action-active: color-mix(in srgb, var(--supernova), var(--black) 9%);
+  --color-action-hover-neutral: #e2e2e2;
 }
 
 *,

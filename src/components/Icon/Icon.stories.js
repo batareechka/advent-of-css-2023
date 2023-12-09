@@ -20,6 +20,12 @@ export const Check = {
   },
 };
 
+export const Chevron = {
+  args: {
+    id: 'chevron',
+  },
+};
+
 export const Close = {
   args: {
     id: 'close',
