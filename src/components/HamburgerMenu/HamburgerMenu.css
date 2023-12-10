@@ -79,7 +79,7 @@
 .hamburger-menu__panel {
   display: flex;
   flex-direction: column;
-  padding: 160px 0 46px;
+  padding: 154px 0 46px;
   /* max-width: 467px;
   width: max-content; */
   width: 32vw;
@@ -101,6 +101,7 @@
 
 .hamburger-menu__list {
   flex-grow: 1;
+  padding-top: 6px;
   overflow-y: auto;
 }
 
