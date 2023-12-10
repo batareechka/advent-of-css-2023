@@ -35,3 +35,19 @@ https://www.adventofcss.com/
 
 ### Day 7
 ![HamburgerMenu](https://github.com/batareechka/advent-of-css-2023/assets/20286643/76a67850-1f6b-41f5-a282-3b5fae1d602e)
+
+### Day 8
+Making the side panel inert when hidden
+
+![keyboard_inert](https://github.com/batareechka/advent-of-css-2023/assets/20286643/7dddd788-25e7-4342-a968-18bee9d05c39)
+
+Fixed accidental double click (demo of the bug)
+
+![accidental double click](https://github.com/batareechka/advent-of-css-2023/assets/20286643/ac082bff-3dbd-47c4-9e16-1b92f88fc4d9)
+
+
+### Day 9
+<img width="491" alt="Screenshot 2023-12-09 at 21 21 27" src="https://github.com/batareechka/advent-of-css-2023/assets/20286643/12dacac1-0c6e-4e49-bfa6-49e8ace79c9e">
+
+### Day 10
+![InteriorLayout](https://github.com/batareechka/advent-of-css-2023/assets/20286643/34969ade-e650-4120-a443-a575c72c09d9)
