@@ -1,0 +1,40 @@
+.interior-layout {
+  height: 100%;
+  color: var(--white);
+  background-color: var(--silver-tree);
+}
+
+@media (prefers-color-scheme: dark) {
+  .interior-layout {
+    background-color: var(--nile-blue);
+  }
+}
+
+.interior-layout__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 'side side side side content content content content content content  . .';
+  justify-items: center;
+  height: 100%;
+}
+
+.interior-layout__side {
+  grid-area: side;
+  width: 100%;
+  background-image: url('/public/images/bg__interior.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.interior-layout__logo {
+  max-width: 74%;
+  padding-top: 120px;
+  padding-left: 50px;
+}
+
+.interior-layout__content {
+  grid-area: content;
+  width: 100%;
+  padding-top: 100px;
+}

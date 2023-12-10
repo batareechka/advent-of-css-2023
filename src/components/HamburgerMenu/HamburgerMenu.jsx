@@ -33,7 +33,7 @@ const HamburgerMenu = () => {
         type="button"
         aria-label={buttonLabel}
         aria-expanded={isOpened}
-        aria-controls="navigation-list"  /* for JAWS */ 
+        aria-controls="navigation-list" /* for JAWS */
         onClick={handleClick}
       >
         <span className="hamburger-menu__button-line"></span>

@@ -1,0 +1,13 @@
+.header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 46px;
+}
+
+.header__dropdown {
+  margin-left: auto;
+}
