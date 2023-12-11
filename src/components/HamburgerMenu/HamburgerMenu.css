@@ -1,6 +1,6 @@
 .hamburger-menu {
-  --animation-duration: 0.5s;
-  --animation-iteration: 0.25s;
+  --animation-duration: 0.3s;
+  --animation-iteration: calc(var(--animation-duration) / 2);
 
   max-width: 467px;
   height: 100%;

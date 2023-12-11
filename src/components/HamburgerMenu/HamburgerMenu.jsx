@@ -1,11 +1,12 @@
 import './HamburgerMenu.css';
 
 import React from 'react';
-import debounce from 'lodash.debounce';
+import { convertSecondsToMilliseconds } from '../../utils/utils';
 
 const HamburgerMenu = () => {
   const [isOpened, setIsOpened] = React.useState(false);
   const [isToggling, setIsToggling] = React.useState(false);
+  const navigationRef = React.useRef(null);
 
   const classes = isOpened
     ? 'hamburger-menu hamburger-menu--opened'
@@ -18,16 +19,21 @@ const HamburgerMenu = () => {
   const handleClick = () => {
     if (isToggling) return;
 
+    // FIXME: move to useEffect
+    let duration = getComputedStyle(navigationRef.current).getPropertyValue(
+      '--animation-duration'
+    );
+
     setIsToggling(true);
     setIsOpened(!isOpened);
 
     setTimeout(() => {
       setIsToggling(false);
-    }, 600); // 600ms is the duration of the animation
+    }, convertSecondsToMilliseconds(duration));
   };
 
   return (
-    <nav className={classes}>
+    <nav className={classes} ref={navigationRef}>
       <button
         className={buttonClasses}
         type="button"
