@@ -8,13 +8,11 @@ const HamburgerMenu = () => {
   const [isToggling, setIsToggling] = React.useState(false);
   const navigationRef = React.useRef(null);
 
-  const classes = isOpened
-    ? 'hamburger-menu hamburger-menu--opened'
-    : 'hamburger-menu';
+  const classes = `hamburger-menu ${isOpened ? 'hamburger-menu--opened' : ''}`;
   const buttonLabel = isOpened ? 'Close menu' : 'Open menu';
-  const buttonClasses = isOpened
-    ? 'hamburger-menu__button hamburger-menu__button--close'
-    : 'hamburger-menu__button';
+  const buttonClasses = `hamburger-menu__button ${
+    isOpened ? 'hamburger-menu__button--close' : ''
+  }`;
 
   const handleClick = () => {
     if (isToggling) return;
