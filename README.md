@@ -51,3 +51,6 @@ Fixed accidental double click (demo of the bug)
 
 ### Day 10
 ![InteriorLayout](https://github.com/batareechka/advent-of-css-2023/assets/20286643/34969ade-e650-4120-a443-a575c72c09d9)
+
+### Day 11
+<img width="589" alt="Screenshot 2023-12-11 at 20 35 30" src="https://github.com/batareechka/advent-of-css-2023/assets/20286643/f8cef8a9-bfe6-4e81-aaaf-e70e475944b3">
