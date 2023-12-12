@@ -61,3 +61,42 @@ a {
 :focus-visible {
   outline: 6px solid var(--spanish-green);
 }
+
+/* TYPOGRAPHY */
+
+.title-jumbo {
+  font-weight: 400;
+  font-family: 'Bebas Neue';
+  font-size: 116px;
+  line-height: 1;
+}
+
+.title-1 {
+  font-weight: 400;
+  font-family: 'Bebas Neue';
+  font-size: 78px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-family: 'Kalam';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.text-decorative {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-decorative::before,
+.text-decorative::after {
+  width: 74px;
+  height: 6px;
+  background-color: currentColor;
+  content: '';
+}
