@@ -4,11 +4,15 @@
   gap: 20px;
   align-items: center;
   padding: 24px 48px 24px 0;
+  text-align: left;
+  color: var(--black);
   background-color: var(--white);
 }
 
 .invite-card__avatar {
   margin-left: -16px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px var(--white);
 }
 
 .invite-card__title {

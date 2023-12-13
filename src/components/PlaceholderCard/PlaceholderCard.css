@@ -1,0 +1,30 @@
+.placeholder-card {
+  position: relative;
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  min-width: 320px;
+  padding: 24px 24px 24px 0;
+  background-color: var(--vista-blue);
+}
+
+.placeholder-card__avatar {
+  margin-left: -16px;
+}
+
+.placeholder-card__content {
+  flex-grow: 1;
+}
+
+.placeholder-card__title {
+  width: 90%;
+  height: 24px;
+  background-color: var(--padua);
+}
+
+.placeholder-card__text {
+  margin-top: 8px;
+  width: 75%;
+  height: 16px;
+  background-color: var(--padua);
+}

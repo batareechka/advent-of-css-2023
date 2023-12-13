@@ -1,9 +1,12 @@
 import './InviteCard.css';
-import React from 'react';
 import Avatar from '../Avatar/Avatar';
 import Icon from '../Icon/Icon';
 
-const InviteCard = () => {
+// TODO: check props defaults
+const InviteCard = ({
+  title = 'Courtney Henry',
+  text = 'courtney.henry@example.com',
+}) => {
   return (
     <article className="invite-card">
       <div className="invite-card__avatar">
@@ -14,8 +17,8 @@ const InviteCard = () => {
         />
       </div>
       <div className="invite-card__content">
-        <div className="invite-card__title">Courtney Henry</div>
-        <div className="invite-card__text">courtney.henry@example.com</div>
+        <div className="invite-card__title">{title}</div>
+        <div className="invite-card__text">{text}</div>
       </div>
       {/* TODO: make  unique aria-label  */}
       <button className="invite-card__button" type="button" aria-label="Remove">
