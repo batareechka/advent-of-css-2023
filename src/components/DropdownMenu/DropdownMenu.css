@@ -71,7 +71,7 @@
 }
 
 .dropdown-menu__link:hover {
-  background-color: var(--color-action-hover-neutral);
+  background-color: var(--color-action-background-hover-neutral);
 }
 
 .dropdown-menu__link-icon {

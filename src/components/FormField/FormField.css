@@ -62,5 +62,5 @@
 }
 
 .form-field__suffix-button:hover {
-  background-color: var(--color-action-hover-neutral);
+  background-color: var(--color-action-background-hover-neutral);
 }

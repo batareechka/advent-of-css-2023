@@ -29,11 +29,11 @@
 }
 
 .hamburger-menu__button:hover {
-  background-color: var(--color-action-hover);
+  background-color: var(--color-action-background-hover);
 }
 
 .hamburger-menu__button:active {
-  background-color: var(--color-action-active);
+  background-color: var(--color-action-background-active);
 }
 
 /* Button icon */
@@ -115,7 +115,7 @@
 }
 
 .hamburger-menu__link:hover {
-  background-color: var(--color-action-hover);
+  background-color: var(--color-action-background-hover);
 }
 
 .hamburger-menu__events {

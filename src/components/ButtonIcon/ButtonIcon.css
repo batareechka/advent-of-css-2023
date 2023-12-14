@@ -1,0 +1,20 @@
+.button-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border: none;
+  border-radius: 50%;
+  color: var(--black-first);
+  background-color: var(--supernova);
+  cursor: pointer;
+}
+
+.button-icon:hover {
+  background-color: var(--color-action-background-hover);
+}
+
+.button-icon:active {
+  background-color: var(--color-action-background-active);
+}

@@ -42,5 +42,5 @@
 }
 
 .invite-card__button:hover {
-  background-color: var(--color-action-hover-neutral);
+  background-color: var(--color-action-background-hover-neutral);
 }

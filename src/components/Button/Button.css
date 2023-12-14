@@ -9,11 +9,11 @@
 }
 
 .button:hover {
-  background-color: var(--color-action-hover);
+  background-color: var(--color-action-background-hover);
 }
 
 .button:active {
-  background-color: var(--color-action-active);
+  background-color: var(--color-action-background-active);
 }
 
 .button--large {
