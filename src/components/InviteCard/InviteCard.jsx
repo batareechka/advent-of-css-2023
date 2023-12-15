@@ -6,15 +6,13 @@ import Icon from '../Icon/Icon';
 const InviteCard = ({
   title = 'Courtney Henry',
   text = 'courtney.henry@example.com',
+  status = 'warning',
+  avatar = 'avatar-06.png',
 }) => {
   return (
     <article className="invite-card">
       <div className="invite-card__avatar">
-        <Avatar
-          avatar="avatar-06.png"
-          alt="Courtney Henry"
-          status={'warning'}
-        />
+        <Avatar avatar={avatar} alt="Courtney Henry" status={status} />
       </div>
       <div className="invite-card__content">
         <div className="invite-card__title">{title}</div>

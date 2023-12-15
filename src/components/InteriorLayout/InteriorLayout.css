@@ -14,7 +14,7 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: 'side side side side content content content content content content  . .';
+  grid-template-areas: 'side side side side content content content content content content  content content';
   justify-items: center;
   height: 100%;
 }
@@ -37,4 +37,6 @@
   grid-area: content;
   width: 100%;
   padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
 }

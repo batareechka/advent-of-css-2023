@@ -1,11 +1,11 @@
 import './ButtonIcon.css';
 import Icon from '../Icon/Icon';
 
-const ButtonIcon = ({ label, icon }) => {
+const ButtonIcon = ({ type = 'button', label, icon }) => {
   return (
     <button
       className="button-icon"
-      type="button"
+      type={type}
       aria-label={label}
       title={label}
     >
