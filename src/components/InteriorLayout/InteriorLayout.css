@@ -1,4 +1,5 @@
 .interior-layout {
+  min-height: 100vh;
   height: 100%;
   color: var(--white);
   background-color: var(--silver-tree);

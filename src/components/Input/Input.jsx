@@ -3,6 +3,7 @@ import React from 'react';
 
 const Input = ({
   id,
+  name,
   type = 'text',
   isRequired = false,
   contextClassName = 'form-field__control',
@@ -14,6 +15,7 @@ const Input = ({
       className={contextClassName}
       type={type}
       id={id}
+      name={name}
       required={isRequired}
       placeholder=""
       value={value}
