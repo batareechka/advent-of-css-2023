@@ -60,3 +60,9 @@ Fixed accidental double click (demo of the bug)
 
 ### Day 13
 <img width="674" alt="Screenshot 2023-12-13 at 19 39 25" src="https://github.com/batareechka/advent-of-css-2023/assets/20286643/2bf3d154-973f-4d21-8db6-1091f5c332e1">
+
+### Day 14
+<img width="714" alt="Screenshot 2023-12-15 at 23 56 01" src="https://github.com/batareechka/advent-of-css-2023/assets/20286643/779cb959-4ff9-4af3-a93f-78932bf9d3a8">
+
+### Day 15
+<img width="681" alt="Screenshot 2023-12-16 at 20 38 34" src="https://github.com/batareechka/advent-of-css-2023/assets/20286643/3ae53863-4be3-4701-9205-21e7f54e1862">
