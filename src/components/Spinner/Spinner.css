@@ -1,0 +1,17 @@
+.spinner {
+  --spinner-color: 255 255 255;
+
+  display: inline-block;
+  width: 60px;
+  aspect-ratio: 1;
+  border: 8px solid rgba(var(--spinner-color) / 0.3);
+  border-radius: 50%;
+  border-top-color: rgba(var(--spinner-color) / 1);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
