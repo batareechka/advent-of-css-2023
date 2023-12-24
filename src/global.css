@@ -21,12 +21,12 @@
   --color-action-background: var(--supernova);
   --color-action-background-hover: color-mix(
     in srgb,
-    var(--supernova),
+    var(--color-action-background),
     var(--black) 7%
   );
   --color-action-background-active: color-mix(
     in srgb,
-    var(--supernova),
+    var(--color-action-background),
     var(--black) 9%
   );
   --color-action-background-hover-neutral: #e2e2e2;

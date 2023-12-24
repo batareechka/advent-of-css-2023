@@ -7,7 +7,7 @@
   border: none;
   border-radius: 50%;
   color: var(--black);
-  background-color: var(--supernova);
+  background-color: var(--color-action-background);
   cursor: pointer;
 }
 
@@ -17,4 +17,37 @@
 
 .button-icon:active {
   background-color: var(--color-action-background-active);
+}
+
+.button-icon--danger {
+  --color-action-background: var(--orange-red);
+  --color-action-background-hover: color-mix(
+    in srgb,
+    var(--color-action-background),
+    var(--black) 7%
+  );
+  --color-action-background-active: color-mix(
+    in srgb,
+    var(--color-action-background),
+    var(--black) 9%
+  );
+  border: 2px solid;
+  color: var(--white);
+}
+
+.button-icon--success {
+  --color-action-background: var(--spanish-green);
+  --color-action-background-hover: color-mix(
+    in srgb,
+    var(--color-action-background),
+    var(--black) 7%
+  );
+  --color-action-background-active: color-mix(
+    in srgb,
+    var(--color-action-background),
+    var(--black) 9%
+  );
+
+  border: 2px solid;
+  color: var(--white);
 }

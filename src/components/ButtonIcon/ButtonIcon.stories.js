@@ -14,3 +14,19 @@ export const Default = {
     label: 'Add user',
   },
 };
+
+export const Danger = {
+  args: {
+    icon: 'close',
+    label: 'Add user',
+    style: 'danger',
+  },
+};
+
+export const Success = {
+  args: {
+    icon: 'plus',
+    label: 'Add user',
+    style: 'success',
+  },
+};
