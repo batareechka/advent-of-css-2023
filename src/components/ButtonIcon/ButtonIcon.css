@@ -4,7 +4,7 @@
   align-items: center;
   width: 64px;
   height: 64px;
-  border: none;
+  border: 2px solid var(--white);
   border-radius: 50%;
   color: var(--black);
   background-color: var(--color-action-background);
@@ -31,7 +31,7 @@
     var(--color-action-background),
     var(--black) 9%
   );
-  border: 2px solid;
+
   color: var(--white);
 }
 
@@ -48,6 +48,5 @@
     var(--black) 9%
   );
 
-  border: 2px solid;
   color: var(--white);
 }

@@ -76,6 +76,7 @@ a {
 /* TYPOGRAPHY */
 
 .title-jumbo {
+  margin: 0;
   font-weight: 400;
   font-family: 'Bebas Neue';
   font-size: 116px;

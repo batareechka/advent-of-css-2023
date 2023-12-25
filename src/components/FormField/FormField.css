@@ -4,7 +4,7 @@
   position: relative;
 }
 
-.form-field:has(.form-field__control:invalid) {
+.form-field:has(.form-field__control:userinvalid) {
   color: var(--white);
 }
 
@@ -46,7 +46,7 @@
   transition: all var(--transition-data);
 }
 
-.form-field__control:invalid {
+.form-field__control:user-invalid {
   background-color: var(--orange-red);
   box-shadow: 0 0 0 3px var(--fire-engine-red);
 }

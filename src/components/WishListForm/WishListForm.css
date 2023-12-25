@@ -1,0 +1,45 @@
+.wish-list-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-right: 120px;
+}
+
+.wish-list-form__item {
+  position: relative;
+}
+
+.wish-list-form__item .form-field:has(input[type='url']) {
+  margin-left: 72px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 24px;
+    height: 32px;
+    border-left: 4px solid var(--spanish-green);
+    border-bottom: 4px solid var(--spanish-green);
+    translate: -100% 0;
+  }
+}
+
+.wish-list-form__item input[type='url'] {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.wish-list-form__item-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.wish-list-form__item-button {
+  position: absolute;
+  top: 0;
+  right: -24px;
+  translate: 100% 0;
+}

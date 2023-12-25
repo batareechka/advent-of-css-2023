@@ -21,3 +21,11 @@ export const Email = {
     required: true,
   },
 };
+
+export const Url = {
+  args: {
+    id: 'my-url',
+    type: 'url',
+    required: true,
+  },
+};
