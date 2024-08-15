@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer__content">
         <img
           className="footer__logo"
-          src="/images/logo__secret-santa--small.svg"
+          src="./images/logo__secret-santa--small.svg"
           alt="Secret Santa"
           width={200}
           height={112}

@@ -7,7 +7,7 @@ function Icon({ contextClass, id, size = 24 }) {
       height={size}
       aria-hidden="true"
     >
-      <use href={`/sprite.svg#${id}`} />
+      <use href={`./sprite.svg#${id}`} />
     </svg>
   );
 }

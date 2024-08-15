@@ -10,8 +10,8 @@ function Avatar({
   isAnonymous = false,
   isChristmasTheme = false,
 }) {
-  const src = `/images/${avatar}`;
-  const christmasImgSrc = '/images/santa-hat.png';
+  const src = `./images/${avatar}`;
+  const christmasImgSrc = './images/santa-hat.png';
   const firstInitial = alt[0]?.toUpperCase();
   const classes = isAnonymous ? 'avatar avatar--anonymous' : 'avatar';
 
