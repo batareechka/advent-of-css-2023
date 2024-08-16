@@ -1,10 +1,10 @@
 # Advent of CSS 2023
 
-24 Challenges for the Season
+[Advent of CSS](https://www.adventofcss.com/) is a series of daily coding challenges that help you improve your CSS skills. Each day, you receive a new challenge that focuses on different aspects of CSS, from layouts and animations to responsive design and modern techniques.
 
-This year, we're working on a single project over 24 days. By the end, you'll have an entire design system setup.
 
-https://www.adventofcss.com/
+## Storybook demo
+https://batareechka.github.io/advent-of-css-2023/
 
 ## Challenges
 
